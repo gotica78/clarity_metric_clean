@@ -1,0 +1,15 @@
+# Ключи и конфиги
+.env
+config.py
+*.key
+*.pem
+
+# Данные
+data/
+cache/
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
+Thumbs.db
