@@ -551,9 +551,9 @@ def analyze_text(text: str, tickers: List[str] = None) -> Dict[str, Any]:
 # Пример использования
 if __name__ == "__main__":
     # Тестовая инициализация
-    test_api_key = "AQVNwXvLRG440CrVNnyttRBXbDn_5CeH0m-LBdBR"
-    test_folder_id = "aje1ff5k8rhoq0ldadjs"
-    test_cloud_id = "b1g1d5jm8n4ned90d6le"
+    test_api_key = ""
+    test_folder_id = ""
+    test_cloud_id = ""
     
     print("🧪 Тестирование Yandex GPT анализатора...")
     
@@ -587,4 +587,5 @@ if __name__ == "__main__":
         # Тест с реальной новостью
         test_news = "Нефть Brent выросла до $85 после атак в Ормузском проливе"
         result = analyze_text(test_news, ["BRENT", "ROSN", "GAZP"])
+
         print(json.dumps(result, ensure_ascii=False, indent=2))
